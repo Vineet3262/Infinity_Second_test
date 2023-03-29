@@ -1,0 +1,31 @@
+.sliderDiv {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+.imgSlider {
+    width: 100%;
+    max-width: 60%;
+    display: block;
+    overflow: hidden;
+}
+
+.leftArrow {
+    position: absolute;
+    left: 22%;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.rightArrow {
+    position: absolute;
+    right: 22%;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 50%;
+}

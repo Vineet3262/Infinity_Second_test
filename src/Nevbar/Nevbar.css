@@ -1,0 +1,15 @@
+button {
+    border: none;
+    padding: 10px 18px;
+    margin-right: 5px;
+    background-color: lightgray;
+    border-radius: 5px 5px 0 0;
+}
+
+button.active {
+    background-color: gray;
+}
+
+.nevBar {
+    padding-left: 20%;
+}

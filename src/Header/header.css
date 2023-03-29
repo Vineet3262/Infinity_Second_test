@@ -1,0 +1,37 @@
+.arrow-container {
+    height: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.arrow-container img {
+    max-width: 100%;
+    width: 100px;
+    opacity: .5;
+}
+
+.arrow-1 {
+    transform: rotate(45deg);
+}
+
+.arrow-1.active img,
+.arrow-2.active img,
+.arrow-3.active img {
+    opacity: 1;
+}
+
+.arrow-2 {
+    transform: rotate(155deg);
+    position: relative;
+    top: -85px;
+}
+
+.arrow-3 {
+    transform: rotate(260deg);
+    position: relative;
+    left: -4%;
+    top: 15px;
+}
